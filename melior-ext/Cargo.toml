@@ -1,0 +1,10 @@
+[package]
+name = "melior-ext"
+description = "Safe wrappers for parts of the MLIR C API that melior does not cover yet"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+melior.workspace = true
+mlir-sys.workspace = true
+thiserror.workspace = true

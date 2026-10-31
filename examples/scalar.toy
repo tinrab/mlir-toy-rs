@@ -1,0 +1,6 @@
+# Chapter 2: a scalar reshaped into a tensor (toyc --emit=mlir).
+
+def main() {
+  var a<2, 2> = 5.5;
+  print(a);
+}

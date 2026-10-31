@@ -1,0 +1,15 @@
+[package]
+name = "toy"
+edition.workspace = true
+version.workspace = true
+
+[[bin]]
+name = "toyc"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+melior.workspace = true
+melior-ext.workspace = true
+thiserror.workspace = true
